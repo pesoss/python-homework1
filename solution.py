@@ -57,7 +57,4 @@ def calculate_final_vector(coordinates, colors):
         else:
             raise AssertionError('There is no way to be here! :)')
 
-    print(f'({x2}, {y2})')
-
-
-calculate_final_vector((1, 1), ['00C000', 'C0FFC0', 'C00000', 'FFFFFF', 'C0C000'])
+    return x2, y2
